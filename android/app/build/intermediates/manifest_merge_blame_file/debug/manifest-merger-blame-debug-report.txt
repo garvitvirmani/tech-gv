@@ -1,0 +1,109 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="30" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->C:\Users\garvi\OneDrive\Desktop\hope\react-native-awesome-slider\example\android\app\src\debug\AndroidManifest.xml:5:5-77
+11-->C:\Users\garvi\OneDrive\Desktop\hope\react-native-awesome-slider\example\android\app\src\debug\AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->C:\Users\garvi\OneDrive\Desktop\hope\react-native-awesome-slider\example\android\app\src\main\AndroidManifest.xml:4:5-67
+12-->C:\Users\garvi\OneDrive\Desktop\hope\react-native-awesome-slider\example\android\app\src\main\AndroidManifest.xml:4:22-64
+13    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+13-->[com.facebook.flipper:flipper:0.99.0] C:\Users\garvi\.gradle\caches\transforms-3\2f5725507f1929c6ddf8255f0bef77bd\transformed\jetified-flipper-0.99.0\AndroidManifest.xml:16:5-76
+13-->[com.facebook.flipper:flipper:0.99.0] C:\Users\garvi\.gradle\caches\transforms-3\2f5725507f1929c6ddf8255f0bef77bd\transformed\jetified-flipper-0.99.0\AndroidManifest.xml:16:22-73
+14    <uses-permission android:name="android.permission.VIBRATE" /> <!-- Required to access Google Play Licensing -->
+14-->[:react-native-haptic-feedback] C:\Users\garvi\OneDrive\Desktop\hope\react-native-awesome-slider\example\node_modules\react-native-haptic-feedback\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-66
+14-->[:react-native-haptic-feedback] C:\Users\garvi\OneDrive\Desktop\hope\react-native-awesome-slider\example\node_modules\react-native-haptic-feedback\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:22-63
+15    <uses-permission android:name="com.android.vending.CHECK_LICENSE" />
+15-->[:rn-fetch-blob] C:\Users\garvi\OneDrive\Desktop\hope\react-native-awesome-slider\example\node_modules\rn-fetch-blob\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:5-73
+15-->[:rn-fetch-blob] C:\Users\garvi\OneDrive\Desktop\hope\react-native-awesome-slider\example\node_modules\rn-fetch-blob\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:22-70
+16    <!--
+17         Required to keep CPU alive while downloading files
+18        (NOT to keep screen awake)
+19    -->
+20    <uses-permission android:name="android.permission.WAKE_LOCK" />
+20-->[:rn-fetch-blob] C:\Users\garvi\OneDrive\Desktop\hope\react-native-awesome-slider\example\node_modules\rn-fetch-blob\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:19:5-68
+20-->[:rn-fetch-blob] C:\Users\garvi\OneDrive\Desktop\hope\react-native-awesome-slider\example\node_modules\rn-fetch-blob\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:19:22-65
+21    <!--
+22         Required to poll the state of the network connection
+23        and respond to changes
+24    -->
+25    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- Required to read and write the expansion files on shared storage -->
+25-->[:rn-fetch-blob] C:\Users\garvi\OneDrive\Desktop\hope\react-native-awesome-slider\example\node_modules\rn-fetch-blob\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:25:5-79
+25-->[:rn-fetch-blob] C:\Users\garvi\OneDrive\Desktop\hope\react-native-awesome-slider\example\node_modules\rn-fetch-blob\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:25:22-76
+26    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+26-->[:rn-fetch-blob] C:\Users\garvi\OneDrive\Desktop\hope\react-native-awesome-slider\example\node_modules\rn-fetch-blob\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:31:5-81
+26-->[:rn-fetch-blob] C:\Users\garvi\OneDrive\Desktop\hope\react-native-awesome-slider\example\node_modules\rn-fetch-blob\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:31:22-78
+27
+28    <application
+28-->C:\Users\garvi\OneDrive\Desktop\hope\react-native-awesome-slider\example\android\app\src\main\AndroidManifest.xml:6:5-24:19
+29        android:name="com.example.MainApplication"
+29-->C:\Users\garvi\OneDrive\Desktop\hope\react-native-awesome-slider\example\android\app\src\main\AndroidManifest.xml:7:7-38
+30        android:allowBackup="false"
+30-->C:\Users\garvi\OneDrive\Desktop\hope\react-native-awesome-slider\example\android\app\src\main\AndroidManifest.xml:11:7-34
+31        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+31-->[androidx.core:core:1.6.0] C:\Users\garvi\.gradle\caches\transforms-3\5efa136d6b7a2c594211658eacead3c1\transformed\core-1.6.0\AndroidManifest.xml:24:18-86
+32        android:debuggable="true"
+33        android:icon="@mipmap/ic_launcher"
+33-->C:\Users\garvi\OneDrive\Desktop\hope\react-native-awesome-slider\example\android\app\src\main\AndroidManifest.xml:9:7-41
+34        android:label="@string/app_name"
+34-->C:\Users\garvi\OneDrive\Desktop\hope\react-native-awesome-slider\example\android\app\src\main\AndroidManifest.xml:8:7-39
+35        android:roundIcon="@mipmap/ic_launcher_round"
+35-->C:\Users\garvi\OneDrive\Desktop\hope\react-native-awesome-slider\example\android\app\src\main\AndroidManifest.xml:10:7-52
+36        android:theme="@style/AppTheme"
+36-->C:\Users\garvi\OneDrive\Desktop\hope\react-native-awesome-slider\example\android\app\src\main\AndroidManifest.xml:12:7-38
+37        android:usesCleartextTraffic="true" >
+37-->C:\Users\garvi\OneDrive\Desktop\hope\react-native-awesome-slider\example\android\app\src\debug\AndroidManifest.xml:8:9-44
+38        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+38-->C:\Users\garvi\OneDrive\Desktop\hope\react-native-awesome-slider\example\android\app\src\debug\AndroidManifest.xml:11:9-86
+38-->C:\Users\garvi\OneDrive\Desktop\hope\react-native-awesome-slider\example\android\app\src\debug\AndroidManifest.xml:11:19-83
+39        <activity
+39-->C:\Users\garvi\OneDrive\Desktop\hope\react-native-awesome-slider\example\android\app\src\main\AndroidManifest.xml:13:7-23:18
+40            android:name="com.example.MainActivity"
+40-->C:\Users\garvi\OneDrive\Desktop\hope\react-native-awesome-slider\example\android\app\src\main\AndroidManifest.xml:14:9-37
+41            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+41-->C:\Users\garvi\OneDrive\Desktop\hope\react-native-awesome-slider\example\android\app\src\main\AndroidManifest.xml:16:9-86
+42            android:label="@string/app_name"
+42-->C:\Users\garvi\OneDrive\Desktop\hope\react-native-awesome-slider\example\android\app\src\main\AndroidManifest.xml:15:9-41
+43            android:launchMode="singleTask"
+43-->C:\Users\garvi\OneDrive\Desktop\hope\react-native-awesome-slider\example\android\app\src\main\AndroidManifest.xml:17:9-40
+44            android:windowSoftInputMode="adjustResize" >
+44-->C:\Users\garvi\OneDrive\Desktop\hope\react-native-awesome-slider\example\android\app\src\main\AndroidManifest.xml:18:9-51
+45            <intent-filter>
+45-->C:\Users\garvi\OneDrive\Desktop\hope\react-native-awesome-slider\example\android\app\src\main\AndroidManifest.xml:19:9-22:25
+46                <action android:name="android.intent.action.MAIN" />
+46-->C:\Users\garvi\OneDrive\Desktop\hope\react-native-awesome-slider\example\android\app\src\main\AndroidManifest.xml:20:13-65
+46-->C:\Users\garvi\OneDrive\Desktop\hope\react-native-awesome-slider\example\android\app\src\main\AndroidManifest.xml:20:21-62
+47
+48                <category android:name="android.intent.category.LAUNCHER" />
+48-->C:\Users\garvi\OneDrive\Desktop\hope\react-native-awesome-slider\example\android\app\src\main\AndroidManifest.xml:21:13-73
+48-->C:\Users\garvi\OneDrive\Desktop\hope\react-native-awesome-slider\example\android\app\src\main\AndroidManifest.xml:21:23-70
+49            </intent-filter>
+50        </activity>
+51
+52        <provider
+52-->[:rn-fetch-blob] C:\Users\garvi\OneDrive\Desktop\hope\react-native-awesome-slider\example\node_modules\rn-fetch-blob\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:34:9-42:20
+53            android:name="com.RNFetchBlob.Utils.FileProvider"
+53-->[:rn-fetch-blob] C:\Users\garvi\OneDrive\Desktop\hope\react-native-awesome-slider\example\node_modules\rn-fetch-blob\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:35:13-62
+54            android:authorities="com.example.provider"
+54-->[:rn-fetch-blob] C:\Users\garvi\OneDrive\Desktop\hope\react-native-awesome-slider\example\node_modules\rn-fetch-blob\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:36:13-60
+55            android:exported="false"
+55-->[:rn-fetch-blob] C:\Users\garvi\OneDrive\Desktop\hope\react-native-awesome-slider\example\node_modules\rn-fetch-blob\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:37:13-37
+56            android:grantUriPermissions="true" >
+56-->[:rn-fetch-blob] C:\Users\garvi\OneDrive\Desktop\hope\react-native-awesome-slider\example\node_modules\rn-fetch-blob\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:38:13-47
+57            <meta-data
+57-->[:rn-fetch-blob] C:\Users\garvi\OneDrive\Desktop\hope\react-native-awesome-slider\example\node_modules\rn-fetch-blob\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:39:13-41:58
+58                android:name="android.support.FILE_PROVIDER_PATHS"
+58-->[:rn-fetch-blob] C:\Users\garvi\OneDrive\Desktop\hope\react-native-awesome-slider\example\node_modules\rn-fetch-blob\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:40:17-67
+59                android:resource="@xml/provider_paths" />
+59-->[:rn-fetch-blob] C:\Users\garvi\OneDrive\Desktop\hope\react-native-awesome-slider\example\node_modules\rn-fetch-blob\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:41:17-55
+60        </provider>
+61    </application>
+62
+63</manifest>
